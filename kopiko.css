@@ -1,0 +1,172 @@
+.header{
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1251px;
+    height: 235px;
+    background: black;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+.name{
+    background:black;
+    width: 1264px;
+    height: 152px;
+    text-align: center;
+}
+.kopi{
+    font-size: 43px;
+    margin-top: 0px;
+    position: absolute;
+    left:508px;
+    top: 40px;
+    letter-spacing: 7px;
+    color:#c3b8b8;
+    font-family: 'Playfair Display', serif;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.kopi:hover{
+    color: #db4f3d;;
+
+}
+.kopidown{
+    font-size: 14px;
+    position: absolute;
+    left: 438px;
+    top: 92px;
+    letter-spacing: 4px;
+    font-style: normal;
+    color: #c3b8b8;
+}
+.line{
+    background: gray;
+    opacity: 50%;
+    width :1264;
+    height: 1px;
+margin-top: 19px;
+}
+.line-color{
+    height: 100%;
+    width: 4%;
+    background: #db4f3d;
+    margin-left: 298px;
+}
+.navbar{
+    background:black ;
+width: 1264px;
+height: 50px;
+text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    display: inline-block;
+    list-style: none;
+    padding: 4px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
+    font-size: 15px;
+    cursor: pointer;
+    color: #db4f3d;
+}
+.options{
+    display: inline-block;
+    list-style: none;
+    padding: 4px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;   
+    transition: .4s;
+
+}
+.options:hover{
+color: rgb(228, 76, 21);
+}
+/* .hr{
+    width: 1264px;
+    background: mediumseagreen;
+    
+} */
+.img1{
+    width: 100%;
+    height: 800px;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.empty1{
+    width: 100%;
+    height: 160px;
+    background:black;
+}
+.paragraph{
+    align-items: center;
+    background-color: black;
+    padding-left:10% ;
+}
+.para1{
+    width: 95%;
+    height: 200px;
+    text-align: center;
+    color: gray;
+}.img2{
+    background: green;
+    width: 70%;
+    height: 480px;
+    margin-left: 16%;
+    background-image: url("./kopiko/coffee-beans-americano.webp");
+    background-position: cover;
+}
+.empty2{
+    width: 100%;
+    height: 250px;
+}
+.logo{
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    position: relative;
+}
+
+
+.links img{
+    position: absolute;
+    top: -60;
+  
+}
+.link1 img{
+    left: 120px;
+}
+.link2 img{
+    left: 250px;
+}
+.link3 img{
+    left: 380px;
+}
+.link4 img{
+    left: 510px;
+}
+.foot{
+    text-align: center;
+    margin-top: 250px;
+    height: 70px;
+}
+.foot a{
+text-decoration: none;
+color: gray;
+font-size: 14px;
+
+}
+span{
+    color: white;
+}
